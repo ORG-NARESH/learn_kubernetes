@@ -1,7 +1,7 @@
 apiVersion: v2
 kind: Pod
 metadata:
-  name: nginx-pod-2
+  name: nginx
 spec:
   containers:
   - name: nginx-perl-container
