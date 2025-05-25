@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: ConfigMap
 metadata:
-  name: config-maps
+  name: configmaps
 spec:
   containers:
   - name: nginx-perl-container
