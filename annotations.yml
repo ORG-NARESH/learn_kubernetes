@@ -4,10 +4,10 @@ metadata:
   name: nginx-pod-example-annotations
   annotations:
     imageregistry: "https://hub.docker.com/"
-    version: "project/demo/v1"
-    Billing: "demo/service/8500$"
-    platform: cloud/aws
-    statging: env/QA
+    # version: "project/demo/v1"
+    # Billing: "demo/service/8500$"
+    # platform: cloud/aws
+    # statging: env/QA
 spec:
   containers:
   - name: nginx-perl-container
