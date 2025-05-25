@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: Pod
 metadata:
-  name: nginx-pod
+  name: nginx-pod-1
 spec:
   containers:
   - name: nginx-perl-container
@@ -10,4 +10,4 @@ spec:
     - containerPort: 80
     envFrom:
     - configMapRef:
-         name: config-maps
+         name: myconfigmap
