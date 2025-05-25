@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: Pod
 metadata:
-  name: nginx-pod-configmap
+  name: nginx-pod-example-configmap
 spec:
   containers:
   - name: nginx-perl-container
