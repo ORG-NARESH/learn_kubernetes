@@ -2,12 +2,13 @@ apiVersion: v1
 kind: Pod
 metadata:
   name: nginx-pod-example-annotations
+
   annotations:
     imageregistry: "https://hub.docker.com/"
-    # version: "project/demo/v1"
-    # Billing: "demo/service/8500$"
-    # platform: cloud/aws
-    # statging: env/QA
+    version/app: "project/demo/v1"
+    Billing/expense: "demo/service/8500$"
+    platform/cloud: cloud/aws
+    staging/project/version: env/expense/QA/version1
 spec:
   containers:
   - name: nginx-perl-container
